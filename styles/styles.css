@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
-
+/*
 .header {
   display: flex;
   justify-content: space-between;
@@ -105,7 +105,8 @@ body {
 .header-button:active {
   background-color: rgba(7, 178, 187, 0.323);
 }
-
+*/
+/*
 ul.breadcrumbs {
     padding: 16px 0 0 126px;
     list-style: none;
@@ -335,7 +336,7 @@ ul.breadcrumbs li a:hover {
   color: rgba(255, 255, 255, 1);
   opacity: 0.699999988079071;
 }
-
+*/
 .footer-content {
   background: #2963A3;
   min-width: 1440px;
