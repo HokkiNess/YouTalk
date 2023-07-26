@@ -12,18 +12,18 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    min-width: 1440px;
-    margin: 0;
-    padding: 0;
-    border-bottom: 2px solid rgba(239, 242, 242, 1);
-    max-height: 76px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid rgba(239, 242, 242, 1);
+  max-height: 76px;
 }
 
-.logo {
-    display: flex;
-    margin: 20px 51px 20px 120px;
+.header-logo {
+  display: flex;
+  margin: 20px 51px 20px 120px;
 }
 
 .nav {
@@ -84,20 +84,26 @@ body {
     border: 0;
     border-radius: 4px;
     font-weight: 700;
+    transition: background-color 0.2s;
 }
 
 .button-link {
   text-decoration: none;
   color: var(--main-03-b-2-a-5, #03B2A5);
   font-family: Montserrat;
+  padding: 14px 20px;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
-.header__button:hover {
+.header-button:hover {
   background-color: rgba(9, 243, 255, 0.179);
+}
+
+.header-button:active {
+  background-color: rgba(7, 178, 187, 0.323);
 }
 
 ul.breadcrumbs {
@@ -179,6 +185,14 @@ ul.breadcrumbs li a:hover {
   font-weight: 600;
   align-items: center;
   line-height: 20px;
+}
+
+.main-list-link:hover {
+  background-color: #a5a5a514;
+}
+
+.main-list-link:active {
+  background-color: #8888881e;
 }
 
 .main__hero_block{
@@ -270,6 +284,10 @@ ul.breadcrumbs li a:hover {
   background: rgba(255, 255, 255, 0.70);
 }
 
+.main-list-link_hero:hover {
+  background-color: rgba(196, 196, 196, 0.572);
+}
+
 .content-block {
   padding: 16px;
   display: flex;
@@ -327,8 +345,7 @@ ul.breadcrumbs li a:hover {
 .footer-information {
   display: flex;
   height: auto;
-  padding-top: 40px;
-  margin: 0 120px 24px;
+  padding: 40px 120px 24px;
   justify-content: space-between;
   border-bottom: 1px solid rgba(157, 157, 157, 0.3);
 }
@@ -341,12 +358,22 @@ ul.breadcrumbs li a:hover {
   justify-content: space-between;
 }
 
-.list-paragraph {
-  padding-bottom: 16px;
+.footer-list-link {
+  text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   color: rgba(255, 255, 255, 1);
+}
+
+.footer-nav {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-link:hover {
+  color: #c5c5c5bf;
 }
 
 .mail {
@@ -434,7 +461,7 @@ ul.breadcrumbs li a:hover {
 }
 
 .footer-bottom {
-  margin: auto 120px auto 120px;
+  margin: 16px 120px 17px 120px;
   
 }
 
@@ -449,4 +476,13 @@ ul.breadcrumbs li a:hover {
   line-height: 20px;
   color: #FFF;;
   opacity: 0.699999988079071;
+}
+
+.important-info__list-link {
+  color: rgba(255, 255, 255, 0.69);
+  text-decoration: none;
+}
+
+.important-info__list-link:hover {
+  color: rgba(255, 255, 255, 0.523);
 }
