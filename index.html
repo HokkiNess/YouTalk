@@ -2,16 +2,15 @@
 <html>
     <head>
         <meta charset="utf8">
-        <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-         <!--
         <header class="header">
             <div class="container">
                     <a href="main-page" class="header-logo">
@@ -76,276 +75,288 @@
                 </button>
             </div>
         </header>
-       -->
         <main class="main">
-                <ul class="breadcrumbs">
-                    <li>
-                        <a href="main-page">Главная</a>
-                    </li>
-                    <li>
+            <div class="main-container">
+                    <ul class="breadcrumbs">
+                        <li>
+                            <a href="main-page">Главная</a>
+                        </li>
+                        <li>
+                            Блог
+                        </li>
+                    </ul>
+                    <h1 class="text main-margin">
                         Блог
+                    </h1>
+
+                <ul class="main-list main-margin">
+                    <li class="main-list-item">
+                        <a href="все" class="main-list-link"> 
+                            <img class="main-list-img" src="png-filling/smile-emoji.png"> 
+                            Все
+                        </a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="самооценка и самопринятие" class="main-list-link">Самооценка и самопринятие</a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="self" class="main-list-link">
+                            <img class="main-list-img" src="png-filling/unicorn-emoji.png">
+                            Self
+                        </a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="чувства и эмоции" class="main-list-link">Чувства и эмоции</a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="тревога" class="main-list-link">Тревога</a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="упражнения" class="main-list-link">Упражнения</a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="психология питания" class="main-list-link">Психология питания</a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="насилие" class="main-list-link">Насилие</a>
+                    </li>
+                    <li class="main-list-item">
+                        <a href="личное здоровье" class="main-list-link">Личное здоровье</a>
                     </li>
                 </ul>
-                <h1 class="text main-margin">
-                    Блог
-                </h1>
-
-            <ul class="main-list main-margin">
-                <li class="main-list-item">
-                    <a class="main-list-link"> 
-                        <img class="main-list-img" src="png-filling/smile-emoji.png"> 
-                        Все
-                    </a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Самооценка и спмопринятие</a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">
-                        <img class="main-list-img" src="png-filling/unicorn-emoji.png">
-                        Self
-                    </a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Чувства и эмоции</a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Тревога</a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Упражнения</a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Психология питания</a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Насилие</a>
-                </li>
-                <li class="main-list-item">
-                    <a class="main-list-link">Личное здоровье</a>
-                </li>
-            </ul>
-            <ul class="hero main-margin">
-                <li class="main-content">
-                    <a href="Эмоциональное выгорание">
-                        <img class="main-content__img" src="png-filling/block1.png">
-                            <div class="main-content-filter">
-                                <ul class="main-content-item main-content-filter">
-                                    <a class="main-list-link main-list-link_hero">
+                <ul class="hero">
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block1.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
                                         <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                        Самооценка и самопринятие
-                                    </a>     
-                                    <a class="main-list-link main-list-link_hero">
+                                            Самооценка и самопринятие
+                                    </li>
+                                    <li class="main-list-link_background">
                                         <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                        Self
-                                    </a>
+                                            Self
+                                    </li>
                                 </ul>
                             </div>
-                        <div class="content-block">
-                                <p class="main-content-text main-content__text_bold">
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
                                     Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
                                 </p>
-                                <p class="main-content__text main-content__text_small-latter">
+                                <p class="hero-content__text hero-content__text_small-latter">
                                     Автор: Лиза Файнтух
                                 </p>
-                                <p class="main-content__text">
+                                <p class="hero-content__text">
                                     Изначально термин «эмоциональное профессиональной сфере и относился...
                                 </p>
-                                <span class="main-content__text main-content__text_date">
+                                <span class="hero-content__text hero-content__text_date">
                                     21.08.2021
                                 </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Как не утонуть в тревоге">
-                        <img class="main-content__img" src="png-filling/block2.png">
-                            <div class="main-content-filter">
-                                <a class="main-list-link main-list-link_hero">
-                                    <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                    Self
-                                </a>
                             </div>
-                        <div class="content-block">
-                                <p class="main-content-text main-content__text_bold">
-                                    Как не утонуть в тревоге и управлять своими страхами
-                                </p>
-                                <p class="main-content-text main-content__text_small-latter">
-                                    Автор: Екатерина Бельтюкова
-                                </p>
-                                <p class="main-content-text">
-                                    Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
-                                </p>
-                                <span class="main-content-text main-content__text_date">
-                                    11.08.2021
-                                </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Эмоциональное выгорание">
-                        <img class="main-content__img" src="png-filling/block3.png">
-                            <div class="main-content-filter">
-                                <ul class="main-content-item main-content-filter">
-                                    <a class="main-list-link main-list-link_hero">
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block2.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
                                         <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                        Психология питания
-                                    </a>
-                                    <a class="main-list-link main-list-link_hero">
-                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                        Self
-                                    </a>
+                                            Self
+                                    </li>
                                 </ul>
                             </div>
-                        <div class="content-block">
-                            <p class="main-content-text main-content__text_bold">
-                                Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
-                            </p>
-                            <p class="main-content-text main-content__text_small-latter">
-                                Автор: Лиза Файнтух
-                            </p>
-                            <p class="main-content-text">
-                                Изначально термин «эмоциональное профессиональной сфере и относился...
-                            </p>
-                            <span class="main-content-text main-content__text_date">
-                                21.08.2021
-                            </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Как не утонуть в тревоге">
-                        <img class="main-content__img" src="png-filling/block4.png">
-                        <div class="main-content-filter">
-                                <a class="main-list-link main-list-link_hero">
-                                    <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                    Self
-                                </a>
-                        </div>
-                        <div class="content-block">
-                            <p class="main-content__text main-content__text_bold">
-                                Как не утонуть в тревоге и управлять своими страхами
-                            </p>
-                            <p class="main-content__text main-content__text_small-latter">
-                                Автор: Екатерина Бельтюкова
-                            </p>
-                            <p class="main-content__text">
-                                Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
-                            </p>
-                            <span class="main-content__text main-content__text_date">
-                                11.08.2021
-                            </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Как управлять своими эмоциями">
-                        <img class="main-content__img" src="png-filling/block5.png">
-                        <div class="main-content-filter">
-                                <a class="main-list-link main-list-link_hero">
-                                    <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                    Self
-                                </a>
-                        </div>
-                        <div class="content-block">
-                            <p class="main-content-text main-content__text_bold">
-                                Как управлять своими эмоциями: 8 шагов
-                            </p>
-                            <p class="main-content-text main-content__text_small-latter">
-                                Автор: Екатерина Бельтюкова
-                            </p>
-                            <p class="main-content-text">
-                                Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
-                            </p>
-                            <span class="main-content-text main-content__text_date">
-                                07.08.2021
-                            </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Эмоциональное выгорание">
-                        <img class="main-content__img" src="png-filling/block6.png">
-                        <div class="main-content-filter">
-                                <a class="main-list-link main-list-link_hero">
-                                    <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                    Self
-                                </a>
-                        </div>
-                        <div class="content-block">
-                            <p class="main-content-text main-content__text_bold">
-                                Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
-                            </p>
-                            <p class="main-content-text main-content__text_small-latter">
-                                Автор: Лиза Файнтух
-                            </p>
-                            <p class="main-content-text">
-                                Изначально термин «эмоциональное профессиональной сфере и относился...
-                            </p>
-                            <span class="main-content-text main-content__text_date">
-                                21.08.2021
-                            </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Как не утонуть в тревоге">
-                        <img class="main-content__img" src="png-filling/block7.png">
-                        <div class="main-content-filter">
-                                <a class="main-list-link main-list-link_hero">
-                                    <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                    Self
-                                </a>
-                        </div>
-                        <div class="content-block">
-                            <p class="main-content-text main-content__text_bold">
-                                Как не утонуть в тревоге и управлять своими страхами
-                            </p>
-                            <p class="main-content-text main-content__text_small-latter">
-                                Автор: Екатерина Бельтюкова
-                            </p>
-                            <p class="main-content-text">
-                                Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
-                            </p>
-                            <span class="main-content-text main-content__text_date">
-                                11.08.2021
-                            </span>
-                        </div>
-                    </a>
-                </li>
-                <li class="main-content">
-                    <a href="Как управлять своими эмоциями">
-                        <img class="main-content__img" src="png-filling/block8.png">
-                        <div class="main-content-filter">
-                                <a class="main-list-link main-list-link_hero">
-                                    <img class="main-list__img" src="png-filling/unicorn-emoji.png">
-                                    Self
-                                </a>
-                        </div>
-                        <div class="content-block">
-                            <p class="main-content-text main-content__text_bold">
-                                Как управлять своими эмоциями: 8 шагов
-                            </p>
-                            <p class="main-content-text main-content__text_small-latter">
-                                Автор: Екатерина Бельтюкова
-                            </p>
-                            <p class="main-content-text">
-                                Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
-                            </p>
-                            <span class="main-content-text main-content__text_date">
-                                07.08.2021
-                            </span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-                <button class="information-button">
-                    Ещё
-                </button>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Как не утонуть в тревоге и управлять своими страхами
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Екатерина Бельтюкова
+                                </p>
+                                <p class="hero-content__text">
+                                    Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    11.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block3.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Психология питания
+                                    </li>
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Self
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Лиза Файнтух
+                                </p>
+                                <p class="hero-content__text">
+                                    Изначально термин «эмоциональное профессиональной сфере и относился...
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    21.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block4.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Self
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Как не утонуть в тревоге и управлять своими страхами
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Екатерина Бельтюкова
+                                </p>
+                                <p class="hero-content__text">
+                                    Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    11.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block5.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Self
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Как управлять своими эмоциями: 8 шагов
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Екатерина Бельтюкова
+                                </p>
+                                <p class="hero-content__text">
+                                    Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    07.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block6.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Self
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Лиза Файнтух
+                                </p>
+                                <p class="hero-content__text">
+                                    Изначально термин «эмоциональное профессиональной сфере и относился...
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    21.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block7.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Self
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Как не утонуть в тревоге и управлять своими страхами
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Екатерина Бельтюкова
+                                </p>
+                                <p class="hero-content__text">
+                                    Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    11.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hero-content">
+                        <a class="hero-link" href="Эмоциональное выгорание">
+                            <div class="hero-content__upper">
+                                <img class="hero-content__img" src="png-filling/block8.png">
+                                <ul class="hero-content-item">
+                                    <li class="main-list-link_background">
+                                        <img class="main-list__img" src="png-filling/unicorn-emoji.png">
+                                            Self
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-content__down">
+                                <p class="hero-content__text hero-content__text_bold">
+                                    Как управлять своими эмоциями: 8 шагов
+                                </p>
+                                <p class="hero-content__text hero-content__text_small-latter">
+                                    Автор: Екатерина Бельтюкова
+                                </p>
+                                <p class="hero-content__text">
+                                    Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
+                                </p>
+                                <span class="hero-content__text hero-content__text_date">
+                                    07.08.2021
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                    <button class="information-button">
+                        Ещё
+                    </button>
+            </div>
         </main>
-        <!--
         <footer class="footer">
-            <div class="footer-content">
+            <div class="footer-container">
                 <div class="footer-information">
                     <div class="footer-list">
                         <ul class="footer-nav">
@@ -508,6 +519,5 @@
                 </div>
             </div>
         </footer>
-        -->
     </body>
 </html>
