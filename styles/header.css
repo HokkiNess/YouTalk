@@ -32,15 +32,16 @@ body {
 }
 
 .header-list {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    width: 704px;
-    font-weight: 500;
-    font-size: 14px;
-    list-style-type: none;
-    cursor: pointer;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin-right: 15px;
+  width: 704px;
+  font-weight: 500;
+  font-size: 14px;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: space-between;
 }
 
 .list-item__link:hover {
@@ -76,14 +77,11 @@ body {
 .header-button {
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
     width: 230px;
     height: 48px;
-    background-color: rgba(227, 245, 245, 1);
     border: 0;
     border-radius: 4px;
-    font-weight: 700;
     transition: background-color 0.2s;
     margin-left: auto;
     text-decoration: none;
@@ -103,3 +101,12 @@ body {
   .header-button:active {
     background-color: rgba(7, 178, 187, 0.323);
   }
+
+
+@media (max-width: 1024px) {
+  .container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none}
+  .header-list{gap: 16px; margin-right: 20px;}
+  .header-logo{margin-right: 31px;}
+  .header{border-width: 1px;}
+  .header-button{min-width: 230px;}
+}
