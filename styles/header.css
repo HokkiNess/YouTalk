@@ -104,7 +104,7 @@ body {
 
 
 @media (max-width: 1024px) {
-  .container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none}
+  .container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 24.5px; float:none}
   .header-list{gap: 16px; margin-right: 20px;}
   .header-logo{margin-right: 31px;}
   .header{border-width: 1px;}
