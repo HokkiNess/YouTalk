@@ -89,6 +89,7 @@ ul.breadcrumbs li a:hover {
     display: flex;
     border-radius: 24px;
     border: 1px solid #C1C5CD;
+    background: #ffffff;
     padding: 6px 8px;
     gap: 4px;
     font-family: 'Montserrat', sans-serif;
@@ -104,6 +105,7 @@ ul.breadcrumbs li a:hover {
     background: #F9FDFD;
     border: 2px solid #16C8BB;
     padding: 5px 7px;
+    background: #F9FDFD;
 }
 
 .main-list-link:hover {
@@ -127,6 +129,7 @@ ul.breadcrumbs li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
     justify-content: space-between;
   
 }
@@ -138,7 +141,6 @@ ul.breadcrumbs li a:hover {
     max-width: 384px;
     border: 1px solid #DEDEDE;
     border-radius: 16px;
-    margin-bottom: 23px;
     align-content: center;
 }
 
@@ -287,10 +289,12 @@ ul.breadcrumbs li a:hover {
     background-color: var(--primary-400, #35B3A9);;
   }
 
-  @media (max-width: 1024px) {
-    .main-container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 24.5px; float:none}
+  @media (max-width: 1041px) {
+    .main-container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none}
     .hero-content:nth-child(-n + 2){max-width: 468px;}
     .hero-content{max-width: 304px;}
-    .hero-content__upper{padding-top: 55.797%; }
-    .hero-content__img{object-fit: fill;}
+    .hero-content__upper{padding-top: 68.216%;}
+    .hero-content__upper_large{padding-top: 55.797%;}
+    .hero-content__down{min-height: 253px;}
+    .information-button{margin-bottom: 60px;}
   }

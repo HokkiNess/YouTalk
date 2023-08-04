@@ -52,7 +52,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 30px;
   }
   
   .footer-list-link {
@@ -193,4 +194,12 @@ body {
     margin: 0 auto;
     opacity: 0.30000001192092896;
     background: var(--text-grey, #9D9D9D);
+  }
+
+  @media (max-width: 1041px) {
+    .footer-information{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none; display: flex; justify-content: space-between;}
+    .line{max-width: 960px;}
+    .footer-bottom{width: 100%; max-width: 992px; margin: 0 auto; padding: 16px 16px 17px 16px; float:none}
+    .mail{width: 450px;}
+    .footer-list{width: 247px; gap: 30px; justify-content: flex-start;}
   }
