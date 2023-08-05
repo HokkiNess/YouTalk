@@ -229,6 +229,7 @@ ul.breadcrumbs li a:hover {
 .hero-content__text_bold {
     font-size: 18px;
     font-weight: 700;
+    min-width: 272px;
     font-style: normal;
     line-height: 26px;
     margin-bottom: 4px;
@@ -292,9 +293,19 @@ ul.breadcrumbs li a:hover {
   @media (max-width: 1041px) {
     .main-container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none}
     .hero-content:nth-child(-n + 2){max-width: 468px;}
-    .hero-content{max-width: 304px;}
+    .hero-content{max-width: 304px; max-height: 459px;}
     .hero-content__upper{padding-top: 68.216%;}
     .hero-content__upper_large{padding-top: 55.797%;}
     .hero-content__down{min-height: 253px;}
     .information-button{margin-bottom: 60px;}
+  }
+
+  @media (max-width: 768px) {
+    .main-container{width: 100%; max-width: 728px; margin: 0 auto; padding: 14px 8.5px; float:none}
+    .hero-content:nth-child(-n + 2){max-width: 728px; max-height: 600px;}
+    .hero-content:nth-child(-n + 2) .hero-content__down{min-height: 196px;}
+    .hero-content{min-width: 343px; max-height: 445px;}
+    .hero-content__down{min-height: 240px;}
+    .hero-content__upper{padding-top: 60.121%;}
+    .hero-content:nth-child(-n + 2) .hero-content__upper{padding-top: 56.982%;}
   }

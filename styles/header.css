@@ -82,6 +82,7 @@ body {
     height: 48px;
     border: 0;
     border-radius: 4px;
+    background: #E3F5F5;
     transition: background-color 0.2s;
     margin-left: auto;
     text-decoration: none;
@@ -109,4 +110,8 @@ body {
   .header-logo{margin-right: 31px;}
   .header{border-width: 1px;}
   .header-button{min-width: 230px;}
+}
+
+@media (max-width: 768px) {
+  .container{width: 100%; max-width: 728px; margin: 0 auto; padding: 14px 8.5px; float:none}
 }
