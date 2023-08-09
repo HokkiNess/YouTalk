@@ -15,6 +15,13 @@ body {
     border-bottom: 2px solid rgba(239, 242, 242, 1);
 }
 
+.burger {
+  display: flex;
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -104,14 +111,60 @@ body {
   }
 
 
-@media (max-width: 1041px) {
+
+@media (min-width: 1024px) and (max-width: 1439px) {
   .container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none}
   .header-list{gap: 16px; margin-right: 20px;}
   .header-logo{margin-right: 31px;}
   .header{border-width: 1px;}
   .header-button{min-width: 230px;}
+  .header .burger {
+    display: none;
+  }
 }
 
-@media (max-width: 768px) {
-  .container{width: 100%; max-width: 728px; margin: 0 auto; padding: 14px 8.5px; float:none}
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .container{width: 100%;
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    float: none;
+    justify-content: space-between;
+  }
+    .header .burger {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .header-list {
+      display: none;
+    }
+    .header .header-button {
+      display: none;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+
+  .container{width: 100%; 
+    max-width: 414px; 
+    margin: 0 auto; 
+    padding: 14px 24px; 
+    float:none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .burger {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .header-list {
+    display: none;
+  }
+  .header .header-button {
+    display: none;
+  }
 }
