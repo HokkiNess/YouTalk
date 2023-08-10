@@ -76,7 +76,6 @@ ul.breadcrumbs li a:hover {
 
 .main-list {
     display: flex;
-    align-items: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
@@ -310,9 +309,17 @@ ul.breadcrumbs li a:hover {
     .hero-content:nth-child(-n + 2) .hero-content__upper{padding-top: 56.982%;}
   }
 
-  @media (max-width: 414px) {
+  @media (min-width: 414px) and (max-width: 767px) {
     .main-container{width: 100%; max-width: 374px; margin: 0 auto; padding: 14px 0; float:none}
     .hero-content:nth-child(-n + 2){max-width: 366px; max-height: 466px;}
     .hero-content:nth-child(-n + 2) .hero-content__down{min-height: 260px;}
     .hero-content:nth-child(-n + 2) .hero-content__upper{padding-top: 55.379%;}
+    .main-list{overflow-x: scroll;}
+    .main-list-item {
+      width: 100%;
+      display: flex;
+      white-space: nowrap;
+    }
+    .main-list {
+      flex-wrap: nowrap;}
   }
