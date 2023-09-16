@@ -1,0 +1,357 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+  color: #333333;
+  text-decoration: none;
+}
+
+.hero_main {
+    max-width: 690px;
+    margin: 0;
+}
+
+ul.breadcrumbs {
+    list-style: none;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+  
+ul.breadcrumbs li {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(51, 51, 51, 0.7);
+  display: inline-flex;
+  align-items: center;
+  line-height: 18px;
+}
+  
+ul.breadcrumbs li+li:before {
+  color: rgba(51, 51, 51, 0.7);
+  display: block;
+  height: 14px;
+  padding-right: 8px;
+  padding-left: 4px;
+  content: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 6 12' fill='none'%3E%3Cpath d='M0.8125 10.6875L2.375 9.125L5.5 6L2.375 2.875L0.8125 1.3125' stroke='%23333333' stroke-opacity='0.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+}
+
+ul.breadcrumbs li a {
+  color: rgba(51, 51, 51, 0.7);
+  text-decoration: none;
+}
+
+ul.breadcrumbs li a:hover {
+  color: rgba(51, 51, 51, 0.7);
+  text-decoration: underline;
+}
+
+.text {
+    display: flex;
+    margin-top: 54px;
+    font-weight: 700;
+    font-size: 48px;
+    max-width: 690px;
+    max-height: 168px;
+    line-height: 56px;
+    font-style: normal;
+    margin-bottom: 16px;
+  }
+
+  .dot_before:before {
+    content: '· ';
+    margin: 0 8px;
+  }
+
+  .hero_main-list {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: column;
+  }
+
+.before_dot {
+  margin-bottom: 4px;
+}
+
+.small_content {
+  margin-bottom: 16px;
+}
+
+.dot_img {
+  padding-right: 8px;
+}
+
+.card {
+  max-width: 282px;
+  max-height: 512px;
+}
+
+.picture_box {
+  background-image: url("../../YouTalk/svg/yelow_thing.svg"), url("../../YouTalk/svg/bright.svg");
+}
+
+.hero {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 14px 16px;
+}
+
+  /**
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  **/
+
+.hero-content__text {
+  color: #494949;
+}
+
+.hero-content__img {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.hero_main-tab {
+  margin: 24px 0 24px;
+  max-width: 588px;  
+}
+
+.table_of_contents {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.mother_row {
+  margin-bottom: 4px;
+}
+
+.first_row {
+  padding-left: 57px;
+}
+
+.second_row {
+  padding-left: 17px;
+}
+
+.third_row {
+  padding-left: 17px;
+  margin-bottom: 8px;
+}
+
+.regular_text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 24px 0 24px;
+  text-decoration: none;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.before_dot {
+  display: flex;
+}
+
+.description {
+  color: #868686;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+  letter-spacing: 0.25px;
+  margin-bottom: 24px;
+}
+
+.text_with_background {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px; 
+  margin-bottom: 24px;
+  padding: 24px 104px 48px 102px;
+  background-image: url("../svg/spot.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-comment {
+  background-color: #F3F7FE;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  background-image: url("../svg/quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 24px;
+}
+
+.block_with_img_first {
+  display: flex;
+  gap: 24px;
+}
+
+.block_with_img_second {
+  display: flex;
+  gap: 24px;
+}
+
+.block_with_img_third {
+  display: flex;
+  gap: 24px;
+}
+
+.hero_img-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero_lightning_svg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.task_block_1 {
+  border-radius: 16px;
+  background: var(--status-yellowe-white, #FEFAEC);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.task_block_2 {
+  border-radius: 16px;
+  background: var(--status-orange-white, #FFF3EB);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.task_block_3 {
+  border-radius: 16px;
+  background: rgba(3, 178, 165, 0.10);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.exercise {
+  padding-bottom: 8px;
+}
+
+.standart_text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.comment_text {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 0 8px;
+}
+
+.second_dot {
+  display: flex;
+  align-items: flex-start;
+}
+
+.comment_name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pre-block_head {
+  margin-bottom: 40px;
+}
+
+.main-list {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style-type: none;
+    margin: 32px 0 23px 0;
+}
+
+.main-list-link {
+  color: #2963A3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  background: none;
+  font-family: Montserrat;
+
+}
+
+.main-list-item-withdot::after {
+  content: '·';
+  margin: 0 2px 0 8px;
+}
+/**
+.co-op {
+  border-bottom: solid black 1px;
+  display: flex;
+  gap: 228px;
+}
+**/
+.hero_under_line {
+  display: flex;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+
+.card_1 {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: var(--blue-b-95, #E6F0FD);
+}
+
+.card_general_text {
+  color: var(--text-primary, #333);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; 
+}

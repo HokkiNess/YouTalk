@@ -292,6 +292,10 @@ ul.breadcrumbs li a:hover {
     background-color: var(--primary-400, #35B3A9);;
   }
 
+  .burger {
+    display: none;
+  }
+
   @media (max-width: 1024px) {
     .main-container{width: 100%; max-width: 992px; margin: 0 auto; padding: 14px 16px; float:none}
     .hero-content:nth-child(-n + 2){max-width: 468px;}
@@ -300,6 +304,7 @@ ul.breadcrumbs li a:hover {
     .hero-content__upper_large{padding-top: 55.797%;}
     .hero-content__down{min-height: 253px;}
     .information-button{margin-bottom: 60px;}
+    .burger{display: none;}
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -310,6 +315,7 @@ ul.breadcrumbs li a:hover {
     .hero-content__down{min-height: 240px;}
     .hero-content__upper{padding-top: 60.121%;}
     .hero-content:nth-child(-n + 2) .hero-content__upper{padding-top: 56.982%; width: 725px;}
+    .burger{display: block;}
   }
 
   @media (min-width: 414px) and (max-width: 767px) {
@@ -324,6 +330,7 @@ ul.breadcrumbs li a:hover {
     .hero-content__upper{padding-top: 55.379%;}
     .hero-content{max-width: 366px; max-height: 466px;}
     .hero-content:nth-child(n + 5){display: none;}
+    .burger{display: block;}
   }
 
   @media (min-width: 320px) and (max-width: 413px) {
@@ -341,4 +348,5 @@ ul.breadcrumbs li a:hover {
     .hero{max-width: 288px;}
     .hero-link{max-width: 286px;}
     .hero-content__text_bold{max-width: 256px;}
+    .burger{display: block;}
   }
